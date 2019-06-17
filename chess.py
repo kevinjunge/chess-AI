@@ -1,5 +1,4 @@
 # chessBoard = [[1] * 8 for i in range(8)]
-pieces = {
 castle = "C"
 bishop = "B"
 horse = "H"
@@ -7,7 +6,6 @@ queen = "Q"
 pawn = "P"
 king = "K"
 empty= " "
-}
 
 chessBoard = [
     [castle, horse, bishop, queen, king, bishop, horse, castle],
@@ -146,13 +144,13 @@ def playGame():
     return True
 
 def player1():
-    i = input("player 1: ")
-    o = input()
+    print("player 1: ")
+
     return True
 
 def player2():
-    i = input("player 2: ")
-    o = input()
+    print("player 2: ")
+
     return True
 
 def gameOver():
